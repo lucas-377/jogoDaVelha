@@ -1,0 +1,4 @@
+<!-- Botoes do campo -->
+<ion-button expand="block" color="primary" *ngIf="!value">{{ value }}</ion-button>
+<ion-button expand="block" color="secondary" *ngIf="value == 'X' ">{{ value }}</ion-button>
+<ion-button expand="block" color="tertiary" *ngIf="value == 'O' ">{{ value }}</ion-button>
